@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "lib": ["ES2021", "DOM"],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "types": ["node", "cypress"],
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "baseUrl": ".",
+    "paths": {
+      "@pages/*": ["cypress/page-objects/*"],
+      "@support/*": ["cypress/support/*"],
+      "@api/*": ["cypress/api/*"]
+    }
+  },
+  "include": ["cypress/**/*.ts", "cypress/**/*.d.ts", "cypress.config.ts"]
+}
