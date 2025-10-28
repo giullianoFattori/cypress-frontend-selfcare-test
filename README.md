@@ -84,7 +84,9 @@ If this starter saves you time, consider buying me a coffee:
 - Direct link: https://wise.com/pay/me/giullianof9
 - Scan the QR code below:
 
-![Buy me a coffee](assets/coffee-qr.png)
+  <a href="https://wise.com/pay/me/giullianof9">
+    <img src="./assets/coffee-qr.png" alt="Buy me a coffee QR code" width="200" />
+  </a>
 
 ## Suggested Next Steps
 - Add more page objects using `BasePage`.
